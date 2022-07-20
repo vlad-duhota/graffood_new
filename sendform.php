@@ -5,8 +5,8 @@ $phone = $_POST['phone']; // Берём данные из input c атрибут
 $type = $_POST['type']; // Берём данные из input c атрибутом name="mail"
 $message = $_POST['text']; // Берём данные из input c атрибутом name="mail"
 
-$token = "5149409818:AAEfNqgaEjviWViLOeGIWC21iC8lqK14yDw"; // Тут пишем токен
-$chat_id = "-711970871"; // Тут пишем ID группы, куда будут отправляться сообщения
+$token = "5544887595:AAFVZ1UWivcIYb_tW07DqU9cJwSr4jhE_DU"; // Тут пишем токен
+$chat_id = "-714073190"; // Тут пишем ID группы, куда будут отправляться сообщения
 $sitename = "graffod"; //Указываем название сайта
 
 $arr = array(
