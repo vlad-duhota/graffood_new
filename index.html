@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/nice-select2.css">
+  <link rel="stylesheet" href="css/sweetalert.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="img/Graffood.svg" alt="">
+            </a>
+            <div class="header__right">
+                <button class="header__theme">
+                    <img src="img/sun.svg" class="header__theme-img_1">
+                    <img src="img/moon.svg" style="display: none;" class="header__theme-img_2">
+                </button>
+                <button class="header__menu-btn">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <nav class="menu">
+        <ul class="menu__list">
+            <li class="menu__item">
+                <a href="#" class="menu__link">Menu item 1</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Menu item 2</a>
+            </li>
+            <li class="menu__item">
+                <a href="#" class="menu__link">Menu item 3</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+             <div class="hero__slider-wrap">
+                    <div class="swiper hero__slider">
+                        <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="hero__imgs swiper-slide">
+                                <div class="hero__img"> <img src="img/hero/hero_1.jpg"></div>
+                                <div class="hero__img"> <img src="img/hero/hero_2.jpg"></div>
+                                <div class="hero__img" style="grid-row-start: 1;grid-row-end: 3;grid-column-start: 2;"> <img src="img/hero/hero_3.jpg"></div>
+                                <div class="hero__img" style="grid-row-start: 1;grid-row-end: 3;grid-column-start: 3;grid-column-end: 5;"> <img src="img/hero/hero_4.jpg"></div>
+                             </div>
+                             <div class="hero__imgs swiper-slide">
+                                <div class="hero__img"> <img src="img/hero/hero_5.jpg"></div>
+                                <div class="hero__img" style="grid-column-start: 3;grid-column-end: 5;"> <img src="img/hero/hero_8.jpg"></div>
+                                <div class="hero__img"  style="grid-column-start: 2;grid-column-end: 4;"> <img src="img/hero/hero_6.jpg"></div>
+                                <div class="hero__img" style="grid-row-start: 1; grid-row-end: 3"> <img src="img/hero/hero_7.jpg"></div>
+                                <div class="hero__img"> <img src="img/hero/hero_9.jpg"></div>
+                             </div>
+                             <div class="hero__imgs swiper-slide">
+                                <div class="hero__img" style="grid-row-start: 1;grid-row-end: 3;"> <img src="img/hero/hero_10.jpg"></div>
+                                <div class="hero__img" style="grid-column-start: 2; grid-column-end: 4"> <img src="img/hero/hero_14.jpg"></div>
+                                <div class="hero__img" style="grid-row-start: 1;grid-row-end: 3;grid-column-start: 4; grid-column-end: 5"> <img src="img/hero/hero_11.jpg"></div>
+                                <div class="hero__img"> <img src="img/hero/hero_13.jpg"></div>
+                                <div class="hero__img"> <img src="img/hero/hero_12.jpg"></div>
+                             </div>
+                            </div>
+                          </div>
+             </div>
+             
+                <div class="hero__text-content">
+                    <h1 class="hero__title">Компанія Граффуд</h1>
+                    <p class="hero__sub-title">Організация і проведення банкетів, фуршетів, весіль.</p>
+                    <p class="hero__text">Свята люблять всі, особливо цікаві, незвичайні, мальовничі, красиві – такі, які надовго залишаються в пам'яті участників і гостей свята. Якщо ви не уявляєте, як провести Ваше свято, зверніться в нашу кейтерингову компанію.</p>
+                    <a href="#" class="btn">Замовити</a>
+                </div>
+                <div class="hero__widget">
+                    <a href="#why" class="hero__widget-link hero__widget-link_phone"><img src="img/hero/phone.svg"></a>
+                    <a href="#why" class="hero__widget-link hero__widget-link_scroll-down"><img src="img/hero/arrow.svg"></a>
+                </div>
+            </div>
+        </section>
+        <section class="why" id="why">
+            <div class="container">
+                <h2 class="why__title">Чому ми?</h2>
+                <ul class="why__list">
+                    <li class="why__item">
+                        <div class="why__img-wrap"><img src="img/why/why_1.svg" alt="" class="why__img"></div>
+                        <p class="why__text">Смачна і гарна їжа</p>
+                    </li>
+                    <li class="why__item">
+                        <div class="why__img-wrap"><img src="img/why/why_3.svg" alt="" class="why__img"></div>
+                        <p class="why__text">Вміння слухати бажання замовника</p>
+                    </li>
+                    <li class="why__item">
+                        <div class="why__img-wrap"><img src="img/why/why_3.svg" alt="" class="why__img"></div>
+                        <p class="why__text">Оперативність обробка запитів</p>
+                    </li>
+                    <li class="why__item">
+                        <div class="why__img-wrap"><img src="img/why/why_4.svg" alt="" class="why__img"></div>
+                        <p class="why__text">Европейський менеджмент і інноваційний підхід</p>
+                    </li>
+                    <li class="why__item">
+                        <div class="why__img-wrap"><img src="img/why/why_5.svg" alt="" class="why__img"></div>
+                        <p class="why__text">Великий досвід в коммунікаціях</p>
+                    </li>
+                    <li class="why__item">
+                        <div class="why__img-wrap"><img src="img/why/why_6.svg" alt="" class="why__img"></div>
+                        <p class="why__text">Багато професійних нагород</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="events">
+            <div class="container">
+                <h2 class="events__title">Ми обслуговуємо різні заходи</h2>
+                <ul class="events__list">
+                    <li class="events__item">
+                        <img src="img/hero/hero_2.jpg" class="events__img">
+                        <div class="events__item-content">
+                        <h3 class="events__item-title">Фуршет</h3>
+                        <p class="events__item-text">Cлово "фуршет" французького походження, воно позначає "трапезну вилку". Основна перевага фуршету в тому, що закуски їдять без ножа, за допомогою однієї вилки чи навіть руками.</p>
+                        <button class="more" data-more="1">більше...</button>
+                        </div>
+                    </li>
+                    <li class="events__item">
+                        <img src="img/banket/banket_1.jpg" class="events__img">
+                        <div class="events__item-content">
+                        <h3 class="events__item-title">Банкет</h3>
+                        <p class="events__item-text">У наш час обіди супроводжують різні події. Основні моменти, які впливають на вибір формату майбутнього застілля, це: привід, кількість гостей та відповідно місткість майданчика, час початку та тривалість заходу та, безумовно, бюджет.</p>
+                        <button class="more" data-more="2">більше...</button>
+                        </div>
+                    </li>
+                    <li class="events__item">
+                        <img src="img/hero/hero_9.jpg" class="events__img">
+                        <div class="events__item-content">
+                        <h3 class="events__item-title">Кава брейк</h3>
+                        <p class="events__item-text">Правильно запланована та якісно проведена кава-брейк може підвищити плідність корпоративного чи ділового заходу – семінару, конференції, переговорів, презентації чи різних тренінгів. Головна мета кава-брейку – неформальне спілкування ділових партнерів.</p>
+                        <button class="more" data-more="3">більше...</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <form class="contact-form">
+                    <h3 class="contact-form__title">Форма зворотнього зв’язку</h3>
+                    <label for="name-input" class="contact-form__label">Ім’я та прізвище:</label>
+                    <input type="text" id="name-input" name="name" class="contact-form__input">
+                    <label for="phone-input" class="contact-form__label">Телефон:</label>
+                    <input type="phone" name="phone" id="phone-input" class="contact-form__input">
+                    <label for="select-input" class="contact-form__label">Тип заходу:</label>
+                    <select class="contact-form__select" name="type" id="select-input">
+                        <option value="Фуршет">Фуршет</option>
+                        <option value="Банкет">Банкет</option>
+                        <option value="Кава-брейк">Кава-брейк</option>
+                    </select>
+                    <label for="text-input" class="contact-form__label">Повідомлення:</label>
+                    <textarea name="text" class="contact-form__input" id="text-input" cols="30" rows="10"></textarea>
+                    <button type="submit" class="contact-form__submit-btn">Відправити</button>
+                </form>
+            </div>
+        </section>
+        <div class="fixed-bg">
+            <div class="container">
+                <h2 class="fixed-bg__title">Ми зробимо ваше застілля незабутнім</h2>
+            </div>
+        </div> 
+    </main>
+    <footer class="footer">
+        <div class="container">
+        
+        </div>
+    </footer>
+    <div class="pop-up">
+        <div class="pop-up__body">
+            <button class="pop-up__close-btn"><span>+</span></button>
+            <div class="pop-up__content" data-more="1">
+                <h3 class="pop-up__title">Фуршет</h3>
+                <p class="pop-up__text">Cлово "фуршет" французького походження, воно позначає "трапезну вилку". Основна перевага фуршету в тому, що закуски їдять без ножа, за допомогою однієї вилки чи навіть руками.</p>
+                <h3 class="pop-up__title">Фуршетні закуски</h3>
+                <p class="pop-up__text">Майстерні французькі кухарі довели майстерність приготування легких закусок до досконалості. Головний принцип фуршетних частування - створення зі звичайних продуктів різноманітних кулінарних шедеврів, в яких гармонійно поєднуються наявні інгредієнти. Кількість оригінальних фуршетних закусок має бути досить великою.</p>
+                <h3 class="pop-up__title">Особливості фуршета</h3>
+                <p class="pop-up__text">Варто відзначити, що фуршет – це не просто спосіб швидкого прийому будь-якої кількості гостей із мінімальними витратами. Саме такі прийоми можуть багато що вирішити на користь Вашої кар'єри та посприяти налагодженню зв'язків із важливими для Вас людьми. Адже саме фуршет завдяки невимушеній атмосфері здатний об'єднати людей, що зібралися. Грамотно організований та проведений фуршет допоможе колегам стати друзями.</p>
+            </div>
+            <div class="pop-up__content" data-more="2">
+                <h3 class="pop-up__title">Банкет</h3>
+                <p class="pop-up__text">У наш час обіди супроводжують різні події. Основні моменти, які впливають на вибір формату майбутнього застілля, це: привід, кількість гостей та відповідно місткість майданчика, час початку та тривалість заходу та, безумовно, бюджет.</p>
+                <h3 class="pop-up__title">Проведення банкета</h3>
+                <p class="pop-up__text">Якщо Ви плануєте сімейне свято чи корпоративний захід, Вам підійдуть банкети з частковим обслуговуванням тривалістю від 2 до 10 годин. При цьому холодні закуски (салати та фрукти) виставляють «у стіл» з розрахунку 1 страву на 2-4 особи. Кожен гість може, не встаючи, взяти страву, що сподобалася, або напій в будь-якому порядку і в будь-якій кількості. Офіціанти сервірують закуски із спільних страв, наливають вина, прибирають порожній посуд. Їхнє основне завдання - винесення гарячих закусок і страв, у цьому полягає часткове обслуговування.</p>
+                <h3 class="pop-up__title">Проведення банкета</h3>
+                <p class="pop-up__text">
+                    Цей варіант доречний на не пафосних заходах, кількість офіціантів буде набагато меншою, ніж на банкетах з повним обслуговуванням. Заходи з повним обслуговуванням - найскладніші та найвідповідальніші. Такий формат супроводжує офіційні прийоми, вручення міжнародних премій та нагород. Тривалість таких банкетів від 2 до 4 годин, починаються вони не раніше 18:00, проводяться найчастіше по четвергах, п'ятницях чи суботах.</p>
+            </div>
+            <div class="pop-up__content" data-more="3">
+                <h3 class="pop-up__title">Кава-брейк</h3>
+                <p class="pop-up__text">Правильно запланована та якісно проведена кава-брейк може підвищити плідність корпоративного чи ділового заходу – семінару, конференції, переговорів, презентації чи різних тренінгів. Головна мета кава-брейку – неформальне спілкування ділових партнерів.</p>
+                <h3 class="pop-up__title">Кава-брейк для ділового спілкування</h3>
+                <p class="pop-up__text">В Україні для перерви на каву учасників зазвичай запрошують до окремого приміщення, при цьому фіксовані місця не передбачаються. Це робить атмосферу комфортною та розкутою та дозволяє використовувати кавову паузу не тільки для підкріплення сил та вгамування спраги, але й для висловлювання цікавих ідей та налагодження ділових контактів.</p>
+                <h3 class="pop-up__title">Організація кава-брейка на виїзді(кейтеринг)</h3>
+                <p class="pop-up__text">Як правило, для проведення ділових заходів підбираються приміщення, в яких є кафетерії або бари з усім необхідним обладнанням, меблями, посудом та офіціантами. У тих випадках, коли зустріч відбувається на природі або з будь-яких причин немає можливості організувати на місці приготування всього необхідного для кави-брейка, варто звернутися до кейтерингової компанії, яка візьме на себе організацію невеликих перерв для їжі - від приготування кави та доставки готових обідів чи продуктів їхнього приготування, до оформлення місця проведення заходу.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/nice-select2.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
