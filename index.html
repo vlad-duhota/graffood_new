@@ -154,12 +154,12 @@
         </section>
         <section class="contact">
             <div class="container">
-                <form class="contact-form">
+                <form action="sendform.php"  class="contact-form">
                     <h3 class="contact-form__title">Форма зворотнього зв’язку</h3>
                     <label for="name-input" class="contact-form__label">Ім’я та прізвище:</label>
-                    <input type="text" id="name-input" name="name" class="contact-form__input">
+                    <input required type="text" id="name-input" name="name" class="contact-form__input">
                     <label for="phone-input" class="contact-form__label">Телефон:</label>
-                    <input type="phone" name="phone" id="phone-input" class="contact-form__input">
+                    <input required type="phone" name="phone" id="phone-input" class="contact-form__input">
                     <label for="select-input" class="contact-form__label">Тип заходу:</label>
                     <select class="contact-form__select" name="type" id="select-input">
                         <option value="Фуршет">Фуршет</option>
@@ -167,7 +167,7 @@
                         <option value="Кава-брейк">Кава-брейк</option>
                     </select>
                     <label for="text-input" class="contact-form__label">Повідомлення:</label>
-                    <textarea name="text" class="contact-form__input" id="text-input" cols="30" rows="10"></textarea>
+                    <textarea required name="text" class="contact-form__input" id="text-input" cols="30" rows="10"></textarea>
                     <button type="submit" class="contact-form__submit-btn">Відправити</button>
                 </form>
             </div>

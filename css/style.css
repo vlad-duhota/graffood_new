@@ -648,6 +648,7 @@ input:focus, textarea:focus {
   resize: vertical;
   min-height: 200px;
   max-height: 400px;
+  background: #fff !important;
 }
 
 .contact-form__submit-btn {
